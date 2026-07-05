@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 780" width="390" height="780" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-10%" y="-5%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000022"/>
+    </filter>
+    <clipPath id="phone-clip">
+      <rect x="10" y="10" width="370" height="760" rx="36" ry="36"/>
+    </clipPath>
+  </defs>
+
+  <!-- PHONE OUTER SHADOW + FRAME -->
+  <rect x="10" y="10" width="370" height="760" rx="36" ry="36" fill="#ffffff" filter="url(#shadow)" stroke="#A78BFA" stroke-width="2"/>
+
+  <!-- ALL CONTENT CLIPPED TO PHONE SHAPE -->
+  <g clip-path="url(#phone-clip)">
+
+    <!-- BG -->
+    <rect x="10" y="10" width="370" height="760" fill="#F8FAFC"/>
+
+    <!-- STATUS BAR -->
+    <rect x="10" y="10" width="370" height="44" fill="#ffffff"/>
+    <text x="30" y="34" font-size="13" font-weight="700" fill="#1E293B">9:41</text>
+    <text x="310" y="34" font-size="12" fill="#1E293B">▲ WiFi 🔋</text>
+
+    <!-- HEADER -->
+    <rect x="10" y="54" width="370" height="52" fill="#ffffff"/>
+    <text x="195" y="86" font-size="17" font-weight="700" fill="#1E293B" text-anchor="middle">Pesanan Saya</text>
+    <line x1="10" y1="106" x2="380" y2="106" stroke="#E2E8F0" stroke-width="1"/>
+
+    <!-- TAB BAR -->
+    <rect x="10" y="106" width="370" height="44" fill="#ffffff"/>
+    <!-- Active tab indicator -->
+    <rect x="10" y="142" width="92" height="3" rx="2" fill="#4F46E5"/>
+    <!-- Tab texts -->
+    <text x="56" y="132" font-size="13" font-weight="700" fill="#4F46E5" text-anchor="middle">Semua</text>
+    <text x="148" y="132" font-size="13" fill="#94A3B8" text-anchor="middle">Proses</text>
+    <text x="240" y="132" font-size="13" fill="#94A3B8" text-anchor="middle">Dikirim</text>
+    <text x="332" y="132" font-size="13" fill="#94A3B8" text-anchor="middle">Selesai</text>
+    <line x1="10" y1="150" x2="380" y2="150" stroke="#E2E8F0" stroke-width="1"/>
+
+    <!-- ═══ CARD 1 — Kue Bawang Renyah ═══ -->
+    <rect x="20" y="160" width="350" height="118" rx="14" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.2"/>
+    <!-- Order ID row -->
+    <text x="32" y="181" font-size="11" fill="#94A3B8" font-weight="500">#ORD-20260501</text>
+    <!-- Badge Dikirim -->
+    <rect x="272" y="167" width="86" height="24" rx="12" fill="#DBEAFE"/>
+    <text x="315" y="184" font-size="11" font-weight="700" fill="#2563EB" text-anchor="middle">Dikirim</text>
+    <!-- Divider -->
+    <line x1="32" y1="193" x2="358" y2="193" stroke="#F1F5F9" stroke-width="1"/>
+    <!-- Product icon bg -->
+    <rect x="32" y="202" width="44" height="44" rx="10" fill="#FEF9C3"/>
+    <text x="54" y="230" font-size="24" text-anchor="middle">🍪</text>
+    <!-- Product text -->
+    <text x="86" y="217" font-size="13" font-weight="700" fill="#1E293B">Kue Bawang Renyah</text>
+    <text x="86" y="234" font-size="11" fill="#94A3B8">Dapur Mak Siti · 2 pcs</text>
+    <!-- Price -->
+    <text x="32" y="260" font-size="13" font-weight="700" fill="#4F46E5">Rp 50.000</text>
+    <!-- Button Lacak Paket -->
+    <rect x="252" y="248" width="106" height="28" rx="14" fill="#ffffff" stroke="#4F46E5" stroke-width="1.5"/>
+    <text x="305" y="267" font-size="11" font-weight="700" fill="#4F46E5" text-anchor="middle">Lacak Paket</text>
+
+    <!-- ═══ CARD 2 — Tas Rajut Cantik ═══ -->
+    <rect x="20" y="290" width="350" height="118" rx="14" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="32" y="311" font-size="11" fill="#94A3B8" font-weight="500">#ORD-20260428</text>
+    <!-- Badge Selesai -->
+    <rect x="278" y="297" width="80" height="24" rx="12" fill="#D1FAE5"/>
+    <text x="318" y="314" font-size="11" font-weight="700" fill="#059669" text-anchor="middle">Selesai</text>
+    <line x1="32" y1="323" x2="358" y2="323" stroke="#F1F5F9" stroke-width="1"/>
+    <!-- Product icon bg -->
+    <rect x="32" y="332" width="44" height="44" rx="10" fill="#EDE9FE"/>
+    <text x="54" y="360" font-size="24" text-anchor="middle">👜</text>
+    <!-- Product text -->
+    <text x="86" y="347" font-size="13" font-weight="700" fill="#1E293B">Tas Rajut Cantik</text>
+    <text x="86" y="364" font-size="11" fill="#94A3B8">Rajutan Indah · 1 pcs</text>
+    <!-- Price -->
+    <text x="32" y="390" font-size="13" font-weight="700" fill="#4F46E5">Rp 85.000</text>
+    <!-- Button Beri Ulasan -->
+    <rect x="252" y="378" width="106" height="28" rx="14" fill="#ffffff" stroke="#4F46E5" stroke-width="1.5"/>
+    <text x="305" y="397" font-size="11" font-weight="700" fill="#4F46E5" text-anchor="middle">Beri Ulasan</text>
+
+    <!-- ═══ CARD 3 — Jamu Temulawak ═══ -->
+    <rect x="20" y="420" width="350" height="118" rx="14" fill="#ffffff" stroke="#E2E8F0" stroke-width="1.2"/>
+    <text x="32" y="441" font-size="11" fill="#94A3B8" font-weight="500">#ORD-20260420</text>
+    <!-- Badge Selesai -->
+    <rect x="278" y="427" width="80" height="24" rx="12" fill="#D1FAE5"/>
+    <text x="318" y="444" font-size="11" font-weight="700" fill="#059669" text-anchor="middle">Selesai</text>
+    <line x1="32" y1="453" x2="358" y2="453" stroke="#F1F5F9" stroke-width="1"/>
+    <!-- Product icon bg -->
+    <rect x="32" y="462" width="44" height="44" rx="10" fill="#DCFCE7"/>
+    <text x="54" y="490" font-size="24" text-anchor="middle">🌿</text>
+    <!-- Product text -->
+    <text x="86" y="477" font-size="13" font-weight="700" fill="#1E293B">Jamu Temulawak</text>
+    <text x="86" y="494" font-size="11" fill="#94A3B8">Herbal Nusantara · 3 pcs</text>
+    <!-- Price -->
+    <text x="32" y="520" font-size="13" font-weight="700" fill="#4F46E5">Rp 105.000</text>
+    <!-- Button Beli Lagi -->
+    <rect x="252" y="508" width="106" height="28" rx="14" fill="#ffffff" stroke="#4F46E5" stroke-width="1.5"/>
+    <text x="305" y="527" font-size="11" font-weight="700" fill="#4F46E5" text-anchor="middle">Beli Lagi</text>
+
+    <!-- ═══ BOTTOM NAV ═══ -->
+    <rect x="10" y="690" width="370" height="80" fill="#ffffff"/>
+    <line x1="10" y1="690" x2="380" y2="690" stroke="#E2E8F0" stroke-width="1"/>
+
+    <!-- Nav Beranda -->
+    <text x="56" y="720" font-size="22" text-anchor="middle">🏠</text>
+    <text x="56" y="738" font-size="10" fill="#94A3B8" text-anchor="middle" font-weight="500">Beranda</text>
+
+    <!-- Nav Cari -->
+    <text x="130" y="720" font-size="22" text-anchor="middle">🔍</text>
+    <text x="130" y="738" font-size="10" fill="#94A3B8" text-anchor="middle" font-weight="500">Cari</text>
+
+    <!-- Nav Keranjang -->
+    <text x="204" y="720" font-size="22" text-anchor="middle">🛒</text>
+    <text x="204" y="738" font-size="10" fill="#94A3B8" text-anchor="middle" font-weight="500">Keranjang</text>
+
+    <!-- Nav Pesanan (active) -->
+    <rect x="241" y="690" width="74" height="3" rx="2" fill="#4F46E5"/>
+    <text x="278" y="720" font-size="22" text-anchor="middle">📦</text>
+    <text x="278" y="738" font-size="10" fill="#4F46E5" text-anchor="middle" font-weight="700">Pesanan</text>
+
+    <!-- Nav Profil -->
+    <text x="352" y="720" font-size="22" text-anchor="middle">👤</text>
+    <text x="352" y="738" font-size="10" fill="#94A3B8" text-anchor="middle" font-weight="500">Profil</text>
+
+  </g>
+</svg>

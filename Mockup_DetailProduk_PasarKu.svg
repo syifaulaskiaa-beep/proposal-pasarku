@@ -1,0 +1,194 @@
+<svg viewBox="0 0 420 860" xmlns="http://www.w3.org/2000/svg" width="420" height="860" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="btnGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a3fd4"/>
+      <stop offset="100%" stop-color="#6c5ce7"/>
+    </linearGradient>
+    <linearGradient id="imgBgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffde7"/>
+      <stop offset="100%" stop-color="#fff8c5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- PHONE FRAME                    -->
+  <!-- ═══════════════════════════════ -->
+  <rect id="phone-shadow" x="32" y="14" width="360" height="800" rx="40" fill="#d0cef0"/>
+  <rect id="phone-body" x="30" y="12" width="360" height="800" rx="40" fill="#f7f7ff" stroke="#b8b4e8" stroke-width="2.5"/>
+  <rect id="phone-notch" x="162" y="15" width="96" height="22" rx="11" fill="#1e1a7a"/>
+  <circle id="camera" cx="210" cy="26" r="5" fill="#12106a"/>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- STATUS BAR                     -->
+  <!-- ═══════════════════════════════ -->
+  <rect id="statusbar-bg" x="30" y="12" width="360" height="44" rx="38" fill="#ffffff"/>
+  <rect id="statusbar-fix" x="30" y="38" width="360" height="18" fill="#ffffff"/>
+  <text id="status-time" x="60" y="38" fill="#1a1a4e" font-size="12" font-weight="700">9:41</text>
+  <rect id="bat-outline" x="346" y="28" width="22" height="11" rx="2" fill="none" stroke="#1a1a4e" stroke-width="1.5"/>
+  <rect id="bat-tip" x="368" y="31" width="3" height="5" rx="1" fill="#1a1a4e"/>
+  <rect id="bat-fill" x="348" y="30" width="16" height="7" rx="1" fill="#4a3fd4"/>
+  <rect id="sig1" x="316" y="33" width="3" height="6" rx="1" fill="#1a1a4e"/>
+  <rect id="sig2" x="321" y="30" width="3" height="9" rx="1" fill="#1a1a4e"/>
+  <rect id="sig3" x="326" y="27" width="3" height="12" rx="1" fill="#1a1a4e"/>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- TOP APP BAR                    -->
+  <!-- ═══════════════════════════════ -->
+  <rect id="appbar-bg" x="30" y="55" width="360" height="52" fill="#ffffff"/>
+  <!-- back button -->
+  <circle id="back-btn-bg" cx="62" cy="81" r="16" fill="#f0eeff"/>
+  <path id="back-arrow" d="M68 81 l-10 0 M62 75 l-6 6 l6 6" fill="none" stroke="#4a3fd4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- title -->
+  <text id="appbar-title" x="210" y="86" text-anchor="middle" fill="#1a1a4e" font-size="16" font-weight="700">Detail Produk</text>
+  <!-- share button -->
+  <circle id="share-btn-bg" cx="358" cy="81" r="16" fill="#f0eeff"/>
+  <circle id="share-dot1" cx="352" cy="81" r="2.5" fill="#4a3fd4"/>
+  <circle id="share-dot2" cx="358" cy="75" r="2.5" fill="#4a3fd4"/>
+  <circle id="share-dot3" cx="364" cy="81" r="2.5" fill="#4a3fd4"/>
+  <line id="share-line1" x1="354" y1="79" x2="357" y2="76" stroke="#4a3fd4" stroke-width="1.5"/>
+  <line id="share-line2" x1="361" y1="76" x2="363" y2="79" stroke="#4a3fd4" stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- PRODUCT IMAGE AREA             -->
+  <!-- ═══════════════════════════════ -->
+  <rect id="img-bg" x="30" y="107" width="360" height="210" fill="url(#imgBgGrad)"/>
+  <!-- cookie illustration -->
+  <circle id="cookie-outer" cx="210" cy="212" r="72" fill="#d4891a"/>
+  <circle id="cookie-inner" cx="210" cy="212" r="68" fill="#e6972a"/>
+  <!-- texture lines -->
+  <path id="cookie-tex1" d="M175 185 q10-8 35 0 q10 4 20-2" fill="none" stroke="#c47818" stroke-width="2" stroke-linecap="round"/>
+  <path id="cookie-tex2" d="M170 205 q15-6 40 0 q10 3 22-2" fill="none" stroke="#c47818" stroke-width="2" stroke-linecap="round"/>
+  <!-- chocolate chips -->
+  <ellipse id="chip1" cx="196" cy="198" rx="7" ry="6" fill="#4e2c0e"/>
+  <ellipse id="chip2" cx="220" cy="192" rx="6" ry="5" fill="#3e2008"/>
+  <ellipse id="chip3" cx="232" cy="210" rx="7" ry="6" fill="#4e2c0e"/>
+  <ellipse id="chip4" cx="202" cy="220" rx="6" ry="5" fill="#3e2008"/>
+  <ellipse id="chip5" cx="218" cy="228" rx="5" ry="4" fill="#4e2c0e"/>
+  <ellipse id="chip6" cx="190" cy="215" rx="5" ry="4" fill="#3e2008"/>
+  <ellipse id="chip7" cx="228" cy="196" rx="5" ry="4" fill="#4e2c0e"/>
+  <!-- image dots indicator -->
+  <circle id="imgdot1" cx="202" cy="308" r="5" fill="#4a3fd4"/>
+  <circle id="imgdot2" cx="215" cy="308" r="4" fill="#c5c0ee"/>
+  <circle id="imgdot3" cx="227" cy="308" r="4" fill="#c5c0ee"/>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- CONTENT CARD                   -->
+  <!-- ═══════════════════════════════ -->
+  <rect id="content-card" x="30" y="316" width="360" height="500" rx="30" fill="#ffffff"/>
+
+  <!-- Product Name -->
+  <text id="prod-name1" x="55" y="358" fill="#1a1a4e" font-size="18" font-weight="800">Kue Bawang Renyah Premium</text>
+
+  <!-- Price -->
+  <text id="prod-price" x="55" y="390" fill="#4a3fd4" font-size="22" font-weight="800">Rp 25.000</text>
+  <!-- per unit -->
+  <text id="prod-unit" x="178" y="390" fill="#aaaacc" font-size="13">/bungkus</text>
+
+  <!-- Rating & sold row -->
+  <rect id="rating-star-bg" x="55" y="400" width="20" height="20" rx="4" fill="#fff8e1"/>
+  <!-- star shape -->
+  <polygon id="rating-star" points="65,402 67,408 73,408 68,412 70,418 65,414 60,418 62,412 57,408 63,408" fill="#ffc107"/>
+  <text id="rating-val" x="80" y="415" fill="#1a1a4e" font-size="13" font-weight="700">4.9</text>
+  <text id="rating-count" x="100" y="415" fill="#888899" font-size="12">(42 ulasan)</text>
+  <text id="rating-sep" x="178" y="415" fill="#ccccdd" font-size="12">·</text>
+  <text id="sold-count" x="187" y="415" fill="#888899" font-size="12">120 terjual</text>
+
+  <!-- Divider -->
+  <line id="divider1" x1="50" y1="430" x2="370" y2="430" stroke="#f0f0f8" stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- STORE INFO BOX                 -->
+  <!-- ═══════════════════════════════ -->
+  <rect id="store-box" x="50" y="440" width="320" height="58" rx="14" fill="#f8f7ff" stroke="#e8e6ff" stroke-width="1.5"/>
+  <!-- store avatar -->
+  <circle id="store-avatar-bg" cx="80" cy="469" r="20" fill="#4a3fd4"/>
+  <text id="store-avatar-text" x="80" y="475" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="800">DS</text>
+  <!-- store name -->
+  <text id="store-name" x="108" y="461" fill="#1a1a4e" font-size="13" font-weight="700">Dapur Mak Siti</text>
+  <!-- verified badge -->
+  <circle id="verified-bg" cx="183" cy="457" r="7" fill="#4a3fd4"/>
+  <path id="verified-check" d="M179 457 l3 3 l6-6" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- location -->
+  <circle id="loc-dot" cx="110" cy="476" r="4" fill="#e53935"/>
+  <text id="store-location" x="118" y="480" fill="#888899" font-size="11">Medan, Sumatera Utara</text>
+  <!-- arrow -->
+  <path id="store-arrow" d="M356 464 l7 5 l-7 5" fill="none" stroke="#4a3fd4" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Divider -->
+  <line id="divider2" x1="50" y1="510" x2="370" y2="510" stroke="#f0f0f8" stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- DESCRIPTION                    -->
+  <!-- ═══════════════════════════════ -->
+  <text id="desc-label" x="55" y="534" fill="#1a1a4e" font-size="14" font-weight="700">Deskripsi</text>
+  <text id="desc-text1" x="55" y="554" fill="#555577" font-size="12">Kue bawang renyah buatan rumahan tanpa</text>
+  <text id="desc-text2" x="55" y="570" fill="#555577" font-size="12">pengawet, dikemas higienis menggunakan</text>
+  <text id="desc-text3" x="55" y="586" fill="#555577" font-size="12">bahan pilihan berkualitas tinggi.</text>
+  <!-- read more -->
+  <text id="desc-more" x="55" y="604" fill="#4a3fd4" font-size="12" font-weight="600">Selengkapnya...</text>
+
+  <!-- Divider -->
+  <line id="divider3" x1="50" y1="616" x2="370" y2="616" stroke="#f0f0f8" stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- TAGS / BADGES                  -->
+  <!-- ═══════════════════════════════ -->
+  <text id="tags-label" x="55" y="638" fill="#1a1a4e" font-size="14" font-weight="700">Informasi Produk</text>
+
+  <!-- Tag: Tanpa Pengawet -->
+  <rect id="tag1-bg" x="55" y="648" width="116" height="26" rx="13" fill="#e8f5e9"/>
+  <circle id="tag1-dot" cx="69" cy="661" r="5" fill="#43a047"/>
+  <text id="tag1-text" x="78" y="665" fill="#2e7d32" font-size="11" font-weight="600">Tanpa Pengawet</text>
+
+  <!-- Tag: Homemade -->
+  <rect id="tag2-bg" x="179" y="648" width="90" height="26" rx="13" fill="#e8eaf6"/>
+  <circle id="tag2-dot" cx="193" cy="661" r="5" fill="#3949ab"/>
+  <text id="tag2-text" x="202" y="665" fill="#283593" font-size="11" font-weight="600">Homemade</text>
+
+  <!-- Tag: Stok -->
+  <rect id="tag3-bg" x="277" y="648" width="80" height="26" rx="13" fill="#fff3e0"/>
+  <circle id="tag3-dot" cx="291" cy="661" r="5" fill="#f57c00"/>
+  <text id="tag3-text" x="300" y="665" fill="#e65100" font-size="11" font-weight="600">Stok: 48</text>
+
+  <!-- Divider -->
+  <line id="divider4" x1="50" y1="686" x2="370" y2="686" stroke="#f0f0f8" stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- QUANTITY SELECTOR              -->
+  <!-- ═══════════════════════════════ -->
+  <text id="qty-label" x="55" y="710" fill="#1a1a4e" font-size="13" font-weight="600">Jumlah</text>
+  <rect id="qty-minus-bg" x="280" y="696" width="32" height="32" rx="10" fill="#f0eeff"/>
+  <text id="qty-minus" x="296" y="717" text-anchor="middle" fill="#4a3fd4" font-size="20" font-weight="700">−</text>
+  <text id="qty-val" x="328" y="717" text-anchor="middle" fill="#1a1a4e" font-size="15" font-weight="700">1</text>
+  <rect id="qty-plus-bg" x="348" y="696" width="32" height="32" rx="10" fill="#4a3fd4"/>
+  <text id="qty-plus" x="364" y="717" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">+</text>
+
+  <!-- ═══════════════════════════════ -->
+  <!-- BOTTOM ACTION BUTTONS          -->
+  <!-- ═══════════════════════════════ -->
+  <rect id="action-bar-bg" x="30" y="742" width="360" height="70" rx="0" fill="#ffffff" stroke="#eeeeee" stroke-width="1"/>
+  <rect id="action-bar-bottom" x="30" y="790" width="360" height="22" rx="38" fill="#ffffff"/>
+
+  <!-- Cart button -->
+  <rect id="cart-btn-bg" x="50" y="752" width="90" height="48" rx="14" fill="#f0eeff" stroke="#d0ccff" stroke-width="1.5"/>
+  <!-- cart icon in button -->
+  <rect id="cart-icon-body" x="73" y="762" width="22" height="17" rx="4" fill="none" stroke="#4a3fd4" stroke-width="2"/>
+  <path id="cart-icon-handle" d="M77 762 q0-8 7-8 q7 0 7 8" fill="none" stroke="#4a3fd4" stroke-width="2"/>
+  <circle id="cart-wheel1" cx="77" cy="781" r="3" fill="#4a3fd4"/>
+  <circle id="cart-wheel2" cx="91" cy="781" r="3" fill="#4a3fd4"/>
+  <text id="cart-btn-label" x="95" y="796" text-anchor="middle" fill="#4a3fd4" font-size="9" font-weight="600">Keranjang</text>
+
+  <!-- Buy Now button -->
+  <rect id="buy-btn-bg" x="155" y="752" width="215" height="48" rx="14" fill="url(#btnGrad)"/>
+  <!-- shopping icon -->
+  <circle id="buy-icon-bg" cx="182" cy="776" r="12" fill="#ffffff" fill-opacity="0.2"/>
+  <rect id="buy-icon-bag" x="176" y="771" width="12" height="10" rx="2" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <path id="buy-icon-handle" d="M178 771 q0-5 4-5 q4 0 4 5" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <text id="buy-btn-text" x="282" y="781" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="800">Beli Sekarang</text>
+
+  <!-- Home indicator -->
+  <rect id="home-indicator" x="168" y="826" width="84" height="4" rx="2" fill="#9090cc" opacity="0.4"/>
+
+  <!-- Phone frame border (overlay) -->
+  <rect id="phone-frame-overlay" x="30" y="12" width="360" height="800" rx="40" fill="none" stroke="#b8b4e8" stroke-width="2.5"/>
+</svg>

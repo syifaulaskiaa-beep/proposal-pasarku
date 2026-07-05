@@ -1,0 +1,197 @@
+<svg viewBox="0 0 420 860" xmlns="http://www.w3.org/2000/svg" width="420" height="860" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="btnGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a3fd4"/>
+      <stop offset="100%" stop-color="#6c5ce7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ═══ PHONE FRAME ═══ -->
+  <rect id="phone-shadow" x="32" y="14" width="360" height="800" rx="40" fill="#d0cef0"/>
+  <rect id="phone-body" x="30" y="12" width="360" height="800" rx="40" fill="#f5f4ff" stroke="#b8b4e8" stroke-width="2.5"/>
+  <rect id="phone-notch" x="162" y="15" width="96" height="22" rx="11" fill="#1e1a7a"/>
+  <circle id="camera" cx="210" cy="26" r="5" fill="#12106a"/>
+
+  <!-- ═══ STATUS BAR ═══ -->
+  <rect id="statusbar-bg" x="30" y="12" width="360" height="44" rx="38" fill="#ffffff"/>
+  <rect id="statusbar-fix" x="30" y="38" width="360" height="18" fill="#ffffff"/>
+  <text id="status-time" x="60" y="38" fill="#1a1a4e" font-size="12" font-weight="700">9:41</text>
+  <rect id="bat-outline" x="346" y="28" width="22" height="11" rx="2" fill="none" stroke="#1a1a4e" stroke-width="1.5"/>
+  <rect id="bat-tip" x="368" y="31" width="3" height="5" rx="1" fill="#1a1a4e"/>
+  <rect id="bat-fill" x="348" y="30" width="16" height="7" rx="1" fill="#4a3fd4"/>
+  <rect id="sig1" x="316" y="33" width="3" height="6" rx="1" fill="#1a1a4e"/>
+  <rect id="sig2" x="321" y="30" width="3" height="9" rx="1" fill="#1a1a4e"/>
+  <rect id="sig3" x="326" y="27" width="3" height="12" rx="1" fill="#1a1a4e"/>
+
+  <!-- ═══ APP BAR ═══ -->
+  <rect id="appbar-bg" x="30" y="55" width="360" height="52" fill="#ffffff"/>
+  <circle id="back-btn-bg" cx="62" cy="81" r="16" fill="#f0eeff"/>
+  <path id="back-arrow" d="M68 81 l-10 0 M62 75 l-6 6 l6 6" fill="none" stroke="#4a3fd4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text id="appbar-title" x="200" y="86" text-anchor="middle" fill="#1a1a4e" font-size="17" font-weight="700">Keranjang</text>
+  <rect id="appbar-badge" x="220" y="70" width="28" height="22" rx="11" fill="#4a3fd4"/>
+  <text id="appbar-badge-text" x="234" y="85" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">3</text>
+  <!-- trash icon -->
+  <circle id="trash-bg" cx="358" cy="81" r="16" fill="#fff0f0"/>
+  <rect id="trash-body" x="350" y="76" width="16" height="14" rx="2" fill="none" stroke="#e53935" stroke-width="1.8"/>
+  <line id="trash-line1" x1="354" y1="80" x2="354" y2="86" stroke="#e53935" stroke-width="1.5"/>
+  <line id="trash-line2" x1="358" y1="80" x2="358" y2="86" stroke="#e53935" stroke-width="1.5"/>
+  <line id="trash-line3" x1="362" y1="80" x2="362" y2="86" stroke="#e53935" stroke-width="1.5"/>
+  <line id="trash-lid" x1="348" y1="76" x2="370" y2="76" stroke="#e53935" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- ═══ SELECT ALL ═══ -->
+  <rect id="selectall-bg" x="30" y="107" width="360" height="38" fill="#f8f7ff"/>
+  <rect id="selectall-check" x="50" y="118" width="16" height="16" rx="4" fill="#4a3fd4"/>
+  <path id="selectall-tick" d="M53 126 l4 4 l7-8" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <text id="selectall-text" x="74" y="130" fill="#1a1a4e" font-size="13" font-weight="600">Pilih Semua</text>
+  <text id="selectall-count" x="370" y="130" text-anchor="end" fill="#888899" font-size="12">3 item dipilih</text>
+
+  <!-- ═══ CART ITEM 1: Kue Bawang ═══ -->
+  <rect id="item1-bg" x="30" y="145" width="360" height="90" fill="#ffffff"/>
+  <line id="item1-divider-top" x1="30" y1="145" x2="390" y2="145" stroke="#f0f0f8" stroke-width="1"/>
+  <!-- checkbox -->
+  <rect id="item1-check" x="50" y="178" width="16" height="16" rx="4" fill="#4a3fd4"/>
+  <path id="item1-tick" d="M53 186 l4 4 l7-8" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <!-- product image -->
+  <rect id="item1-img-bg" x="76" y="155" width="70" height="70" rx="12" fill="#fff8e1"/>
+  <circle id="item1-cookie" cx="111" cy="190" r="26" fill="#e6972a"/>
+  <ellipse id="item1-chip1" cx="104" cy="185" rx="5" ry="4" fill="#4e2c0e"/>
+  <ellipse id="item1-chip2" cx="116" cy="183" rx="4" ry="3" fill="#3e2008"/>
+  <ellipse id="item1-chip3" cx="119" cy="195" rx="5" ry="4" fill="#4e2c0e"/>
+  <ellipse id="item1-chip4" cx="107" cy="197" rx="4" ry="3" fill="#3e2008"/>
+  <!-- product details -->
+  <text id="item1-name" x="158" y="170" fill="#1a1a4e" font-size="13" font-weight="700">Kue Bawang Renyah</text>
+  <text id="item1-variant" x="158" y="185" fill="#888899" font-size="11">Original · 100gr</text>
+  <text id="item1-price" x="158" y="202" fill="#4a3fd4" font-size="14" font-weight="800">Rp 25.000</text>
+  <!-- qty controls -->
+  <rect id="item1-minus-bg" x="250" y="210" width="30" height="30" rx="8" fill="#f0eeff"/>
+  <text id="item1-minus" x="265" y="230" text-anchor="middle" fill="#4a3fd4" font-size="18" font-weight="700">−</text>
+  <rect id="item1-qty-bg" x="282" y="210" width="34" height="30" rx="6" fill="#f5f4ff"/>
+  <text id="item1-qty" x="299" y="230" text-anchor="middle" fill="#1a1a4e" font-size="14" font-weight="700">2</text>
+  <rect id="item1-plus-bg" x="318" y="210" width="30" height="30" rx="8" fill="#4a3fd4"/>
+  <text id="item1-plus" x="333" y="230" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">+</text>
+  <text id="item1-subtotal" x="360" y="170" text-anchor="end" fill="#888899" font-size="11">Subtotal</text>
+  <text id="item1-subtotal-val" x="360" y="184" text-anchor="end" fill="#1a1a4e" font-size="12" font-weight="700">Rp 50.000</text>
+
+  <!-- ═══ CART ITEM 2: Tas Rajut ═══ -->
+  <rect id="item2-bg" x="30" y="235" width="360" height="90" fill="#ffffff"/>
+  <line id="item2-divider" x1="30" y1="235" x2="390" y2="235" stroke="#f0f0f8" stroke-width="1.5"/>
+  <rect id="item2-check" x="50" y="268" width="16" height="16" rx="4" fill="#4a3fd4"/>
+  <path id="item2-tick" d="M53 276 l4 4 l7-8" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <!-- bag image -->
+  <rect id="item2-img-bg" x="76" y="245" width="70" height="70" rx="12" fill="#f3e5f5"/>
+  <rect id="item2-bag-body" x="90" y="268" width="42" height="34" rx="6" fill="#9c27b0"/>
+  <path id="item2-bag-handle" d="M97 268 q0-12 14-12 q14 0 14 12" fill="none" stroke="#7b1fa2" stroke-width="3.5" stroke-linecap="round"/>
+  <rect id="item2-bag-detail" x="99" y="276" width="24" height="10" rx="3" fill="#ce93d8"/>
+  <text id="item2-name" x="158" y="260" fill="#1a1a4e" font-size="13" font-weight="700">Tas Rajut Cantik</text>
+  <text id="item2-variant" x="158" y="275" fill="#888899" font-size="11">Ungu · Medium</text>
+  <text id="item2-price" x="158" y="292" fill="#4a3fd4" font-size="14" font-weight="800">Rp 85.000</text>
+  <rect id="item2-minus-bg" x="250" y="300" width="30" height="30" rx="8" fill="#f0eeff"/>
+  <text id="item2-minus" x="265" y="320" text-anchor="middle" fill="#4a3fd4" font-size="18" font-weight="700">−</text>
+  <rect id="item2-qty-bg" x="282" y="300" width="34" height="30" rx="6" fill="#f5f4ff"/>
+  <text id="item2-qty" x="299" y="320" text-anchor="middle" fill="#1a1a4e" font-size="14" font-weight="700">1</text>
+  <rect id="item2-plus-bg" x="318" y="300" width="30" height="30" rx="8" fill="#4a3fd4"/>
+  <text id="item2-plus" x="333" y="320" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">+</text>
+  <text id="item2-subtotal" x="360" y="260" text-anchor="end" fill="#888899" font-size="11">Subtotal</text>
+  <text id="item2-subtotal-val" x="360" y="274" text-anchor="end" fill="#1a1a4e" font-size="12" font-weight="700">Rp 85.000</text>
+
+  <!-- ═══ CART ITEM 3: Jamu Temulawak ═══ -->
+  <rect id="item3-bg" x="30" y="325" width="360" height="90" fill="#ffffff"/>
+  <line id="item3-divider" x1="30" y1="325" x2="390" y2="325" stroke="#f0f0f8" stroke-width="1.5"/>
+  <rect id="item3-check" x="50" y="358" width="16" height="16" rx="4" fill="#4a3fd4"/>
+  <path id="item3-tick" d="M53 366 l4 4 l7-8" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <!-- herb image -->
+  <rect id="item3-img-bg" x="76" y="335" width="70" height="70" rx="12" fill="#e8f5e9"/>
+  <ellipse id="item3-leaf1" cx="105" cy="365" rx="12" ry="20" fill="#43a047" transform="rotate(-20 105 365)"/>
+  <ellipse id="item3-leaf2" cx="117" cy="362" rx="12" ry="20" fill="#66bb6a" transform="rotate(20 117 362)"/>
+  <line id="item3-stem" x1="111" y1="388" x2="111" y2="375" stroke="#2e7d32" stroke-width="2.5" stroke-linecap="round"/>
+  <text id="item3-name" x="158" y="350" fill="#1a1a4e" font-size="13" font-weight="700">Jamu Temulawak</text>
+  <text id="item3-variant" x="158" y="365" fill="#888899" font-size="11">Sachet 10pcs</text>
+  <text id="item3-price" x="158" y="382" fill="#4a3fd4" font-size="14" font-weight="800">Rp 35.000</text>
+  <rect id="item3-minus-bg" x="250" y="390" width="30" height="30" rx="8" fill="#f0eeff"/>
+  <text id="item3-minus" x="265" y="410" text-anchor="middle" fill="#4a3fd4" font-size="18" font-weight="700">−</text>
+  <rect id="item3-qty-bg" x="282" y="390" width="34" height="30" rx="6" fill="#f5f4ff"/>
+  <text id="item3-qty" x="299" y="410" text-anchor="middle" fill="#1a1a4e" font-size="14" font-weight="700">3</text>
+  <rect id="item3-plus-bg" x="318" y="390" width="30" height="30" rx="8" fill="#4a3fd4"/>
+  <text id="item3-plus" x="333" y="410" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">+</text>
+  <text id="item3-subtotal" x="360" y="350" text-anchor="end" fill="#888899" font-size="11">Subtotal</text>
+  <text id="item3-subtotal-val" x="360" y="364" text-anchor="end" fill="#1a1a4e" font-size="12" font-weight="700">Rp 105.000</text>
+
+  <!-- ═══ PROMO CODE ═══ -->
+  <line id="promo-divider" x1="30" y1="418" x2="390" y2="418" stroke="#f0f0f8" stroke-width="6"/>
+  <rect id="promo-bg" x="30" y="424" width="360" height="52" fill="#ffffff"/>
+  <rect id="promo-input" x="50" y="434" width="220" height="32" rx="10" fill="#f5f4ff" stroke="#e0dcff" stroke-width="1.5"/>
+  <!-- ticket icon -->
+  <circle id="promo-icon" cx="68" cy="450" r="8" fill="#e8e6ff"/>
+  <path id="promo-icon-shape" d="M63 450 l3-3 l8 8 l3-3" fill="none" stroke="#4a3fd4" stroke-width="1.5" stroke-linecap="round"/>
+  <text id="promo-placeholder" x="82" y="454" fill="#b0aade" font-size="12">Kode promo...</text>
+  <rect id="promo-btn" x="278" y="434" width="100" height="32" rx="10" fill="url(#btnGrad)"/>
+  <text id="promo-btn-text" x="328" y="454" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="700">Gunakan</text>
+
+  <!-- ═══ PRICE SUMMARY ═══ -->
+  <line id="summary-divider-top" x1="30" y1="478" x2="390" y2="478" stroke="#f0f0f8" stroke-width="6"/>
+  <rect id="summary-bg" x="30" y="484" width="360" height="160" fill="#ffffff"/>
+  <text id="summary-title" x="50" y="508" fill="#1a1a4e" font-size="14" font-weight="700">Ringkasan Belanja</text>
+
+  <!-- Subtotal row -->
+  <text id="row1-label" x="50" y="532" fill="#555577" font-size="13">Subtotal (3 produk)</text>
+  <text id="row1-val" x="370" y="532" text-anchor="end" fill="#1a1a4e" font-size="13" font-weight="600">Rp 260.000</text>
+
+  <!-- Ongkir row -->
+  <text id="row2-label" x="50" y="554" fill="#555577" font-size="13">Ongkos Kirim</text>
+  <rect id="row2-free-badge" x="290" y="542" width="80" height="20" rx="10" fill="#e8f5e9"/>
+  <text id="row2-val" x="330" y="556" text-anchor="middle" fill="#2e7d32" font-size="12" font-weight="700">GRATIS</text>
+
+  <!-- Diskon row -->
+  <text id="row3-label" x="50" y="576" fill="#555577" font-size="13">Diskon Promo</text>
+  <text id="row3-val" x="370" y="576" text-anchor="end" fill="#e53935" font-size="13" font-weight="600">−Rp 10.000</text>
+
+  <!-- Divider -->
+  <line id="total-divider" x1="50" y1="590" x2="370" y2="590" stroke="#e8e6ff" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Total -->
+  <text id="total-label" x="50" y="618" fill="#1a1a4e" font-size="16" font-weight="800">Total Pembayaran</text>
+  <text id="total-val" x="370" y="618" text-anchor="end" fill="#4a3fd4" font-size="18" font-weight="800">Rp 250.000</text>
+  <text id="total-saving" x="50" y="636" fill="#2e7d32" font-size="11">Hemat Rp 10.000 dari promo!</text>
+
+  <!-- ═══ CHECKOUT BUTTON ═══ -->
+  <line id="btn-divider" x1="30" y1="648" x2="390" y2="648" stroke="#f0f0f8" stroke-width="4"/>
+  <rect id="checkout-btn" x="50" y="658" width="320" height="54" rx="16" fill="url(#btnGrad)"/>
+  <!-- arrow -->
+  <text id="checkout-btn-text" x="193" y="691" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="800">Lanjut Checkout</text>
+  <path id="checkout-arrow" d="M318 685 l10 0 M322 680 l6 5 l-6 5" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- ═══ SAFE SHOPPING INFO ═══ -->
+  <text id="safe-text" x="210" y="728" text-anchor="middle" fill="#888899" font-size="11">🔒 Transaksi aman &amp; terenkripsi</text>
+
+  <!-- ═══ BOTTOM NAVIGATION ═══ -->
+  <rect id="navbar-bg" x="30" y="742" width="360" height="58" fill="#ffffff" stroke="#eeeeee" stroke-width="1"/>
+  <rect id="navbar-bottom" x="30" y="788" width="360" height="24" rx="38" fill="#ffffff"/>
+  <!-- Home -->
+  <polygon id="nav-home-roof" points="80,752 68,762 92,762" fill="#aaaacc"/>
+  <rect id="nav-home-wall" x="71" y="762" width="18" height="13" rx="2" fill="#aaaacc"/>
+  <rect id="nav-home-door" x="77" y="767" width="6" height="8" rx="1" fill="#f5f4ff"/>
+  <text id="nav-home-label" x="80" y="790" text-anchor="middle" fill="#aaaacc" font-size="10">Beranda</text>
+  <!-- Search -->
+  <circle id="nav-search" cx="170" cy="763" r="8" fill="none" stroke="#aaa" stroke-width="2"/>
+  <line id="nav-search-h" x1="176" y1="769" x2="181" y2="774" stroke="#aaa" stroke-width="2" stroke-linecap="round"/>
+  <text id="nav-search-label" x="170" y="790" text-anchor="middle" fill="#aaa" font-size="10">Cari</text>
+  <!-- Cart (active) -->
+  <rect id="nav-cart-active-bg" x="242" y="748" width="36" height="30" rx="15" fill="#eeecff"/>
+  <rect id="nav-cart-body" x="249" y="754" width="22" height="17" rx="3" fill="none" stroke="#4a3fd4" stroke-width="2"/>
+  <path id="nav-cart-handle" d="M253 754 q0-7 7-7 q7 0 7 7" fill="none" stroke="#4a3fd4" stroke-width="2"/>
+  <circle id="nav-cart-w1" cx="253" cy="773" r="2.5" fill="#4a3fd4"/>
+  <circle id="nav-cart-w2" cx="267" cy="773" r="2.5" fill="#4a3fd4"/>
+  <circle id="nav-cart-badge" cx="271" cy="752" r="8" fill="#e53935"/>
+  <text id="nav-cart-badge-t" x="271" y="756" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">3</text>
+  <text id="nav-cart-label" x="260" y="790" text-anchor="middle" fill="#4a3fd4" font-size="10" font-weight="700">Keranjang</text>
+  <!-- Profile -->
+  <circle id="nav-profile-h" cx="350" cy="758" r="8" fill="none" stroke="#aaa" stroke-width="2"/>
+  <path id="nav-profile-b" d="M337 775 q4-8 13-8 q9 0 13 8" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round"/>
+  <text id="nav-profile-label" x="350" y="790" text-anchor="middle" fill="#aaa" font-size="10">Profil</text>
+
+  <!-- Home indicator -->
+  <rect id="home-indicator" x="168" y="822" width="84" height="4" rx="2" fill="#9090cc" opacity="0.4"/>
+
+  <!-- Phone frame overlay -->
+  <rect id="phone-frame-overlay" x="30" y="12" width="360" height="800" rx="40" fill="none" stroke="#b8b4e8" stroke-width="2.5"/>
+</svg>

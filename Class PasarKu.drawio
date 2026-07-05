@@ -1,0 +1,227 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="classDiagramRevisi" name="Class Diagram Revisi">
+    <mxGraphModel dx="1028" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Class Diagram — Sistem PasarKu (Revisi)" style="text;html=1;fontSize=18;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="280" y="10" width="460" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="user_frame" value="" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#cccccc;rounded=1;arcSize=4;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="80" y="60" width="200" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="user_title" value="User" style="swimlane;startSize=30;fillColor=#5b8dd9;strokeColor=#ffffff;fontColor=#FFFFFF;fontStyle=1;fontSize=13;rounded=1;arcSize=4;" parent="user_frame" vertex="1">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user_a_36" value="- id : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="user_frame" vertex="1">
+          <mxGeometry y="36" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="user_a_54" value="- nama : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="user_frame" vertex="1">
+          <mxGeometry y="54" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="user_a_72" value="- email : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="user_frame" vertex="1">
+          <mxGeometry y="72" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="user_a_90" value="- password : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="user_frame" vertex="1">
+          <mxGeometry y="90" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="user_a_108" value="- role : enum" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="user_frame" vertex="1">
+          <mxGeometry y="108" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="user_sep" value="" style="line;strokeColor=#cccccc;fontColor=#FFFFFF;" parent="user_frame" vertex="1">
+          <mxGeometry y="130" width="200" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="user_m_136" value="+ login()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="user_frame" vertex="1">
+          <mxGeometry y="136" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="user_m_154" value="+ register()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="user_frame" vertex="1">
+          <mxGeometry y="154" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_frame" value="" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#cccccc;rounded=1;arcSize=4;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="360" y="60" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_title" value="Toko" style="swimlane;startSize=30;fillColor=#5cb85c;strokeColor=#ffffff;fontColor=#FFFFFF;fontStyle=1;fontSize=13;rounded=1;arcSize=4;" parent="toko_frame" vertex="1">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_a_36" value="- id : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="36" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_a_54" value="- nama_toko : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="54" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_a_72" value="- deskripsi : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="72" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_a_90" value="- alamat : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="90" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_a_108" value="- id_penjual : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="108" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_sep" value="" style="line;strokeColor=#cccccc;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="130" width="200" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_m_136" value="+ tambahProduk()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="136" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_m_154" value="+ editProduk()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="154" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="toko_m_172" value="+ hapusProduk()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="toko_frame" vertex="1">
+          <mxGeometry y="172" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_frame" value="" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#cccccc;rounded=1;arcSize=4;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="640" y="60" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_title" value="Produk" style="swimlane;startSize=30;fillColor=#d4881a;strokeColor=#ffffff;fontColor=#FFFFFF;fontStyle=1;fontSize=13;rounded=1;arcSize=4;" parent="produk_frame" vertex="1">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_a_36" value="- id : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="36" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_a_54" value="- nama : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="54" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_a_72" value="- harga : decimal" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="72" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_a_90" value="- stok : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="90" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_a_108" value="- kategori : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="108" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_a_126" value="- id_toko : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="126" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_sep" value="" style="line;strokeColor=#cccccc;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="148" width="200" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_m_154" value="+ getDetail()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="154" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="produk_m_172" value="+ updateStok()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="produk_frame" vertex="1">
+          <mxGeometry y="172" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_frame" value="" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#cccccc;rounded=1;arcSize=4;" parent="1" vertex="1">
+          <mxGeometry x="80" y="420" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_title" value="Pesanan" style="swimlane;startSize=30;fillColor=#e05c8a;strokeColor=#ffffff;fontColor=#FFFFFF;fontStyle=1;fontSize=13;rounded=1;arcSize=4;" parent="pesanan_frame" vertex="1">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_a_36" value="- id : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="36" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_a_54" value="- id_pembeli : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="54" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_a_72" value="- total_harga : decimal" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="72" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_a_90" value="- status : enum" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="90" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_a_108" value="- tgl_pesanan : date" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="108" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_a_126" value="- alamat_kirim : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="126" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_sep" value="" style="line;strokeColor=#cccccc;fontColor=#FFFFFF;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="148" width="200" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_m_154" value="+ buatPesanan()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="154" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pesanan_m_172" value="+ batalPesanan()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#333333;" parent="pesanan_frame" vertex="1">
+          <mxGeometry y="172" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_frame" value="" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#cccccc;rounded=1;arcSize=4;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="360" y="420" width="200" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_title" value="Pembayaran" style="swimlane;startSize=30;fillColor=#8e44ad;strokeColor=#ffffff;fontColor=#FFFFFF;fontStyle=1;fontSize=13;rounded=1;arcSize=4;" parent="pembayaran_frame" vertex="1">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_a_36" value="- id : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pembayaran_frame" vertex="1">
+          <mxGeometry y="36" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_a_54" value="- id_pesanan : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pembayaran_frame" vertex="1">
+          <mxGeometry y="54" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_a_72" value="- metode : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pembayaran_frame" vertex="1">
+          <mxGeometry y="72" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_a_90" value="- status : enum" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pembayaran_frame" vertex="1">
+          <mxGeometry y="90" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_a_108" value="- jumlah : decimal" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pembayaran_frame" vertex="1">
+          <mxGeometry y="108" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_sep" value="" style="line;strokeColor=#cccccc;fontColor=#FFFFFF;" parent="pembayaran_frame" vertex="1">
+          <mxGeometry y="130" width="200" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="pembayaran_m_136" value="+ prosesPembayaran()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="pembayaran_frame" vertex="1">
+          <mxGeometry y="136" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_frame" value="" style="swimlane;startSize=30;fillColor=#ffffff;strokeColor=#cccccc;rounded=1;arcSize=4;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="640" y="420" width="200" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_title" value="Ulasan" style="swimlane;startSize=30;fillColor=#e67e22;strokeColor=#ffffff;fontColor=#FFFFFF;fontStyle=1;fontSize=13;rounded=1;arcSize=4;" parent="ulasan_frame" vertex="1">
+          <mxGeometry width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_a_36" value="- id : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="ulasan_frame" vertex="1">
+          <mxGeometry y="36" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_a_54" value="- id_produk : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="ulasan_frame" vertex="1">
+          <mxGeometry y="54" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_a_72" value="- id_pembeli : int" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="ulasan_frame" vertex="1">
+          <mxGeometry y="72" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_a_90" value="- rating : int (1-5)" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="ulasan_frame" vertex="1">
+          <mxGeometry y="90" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_a_108" value="- komentar : string" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="ulasan_frame" vertex="1">
+          <mxGeometry y="108" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_sep" value="" style="line;strokeColor=#cccccc;fontColor=#FFFFFF;" parent="ulasan_frame" vertex="1">
+          <mxGeometry y="130" width="200" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="ulasan_m_136" value="+ tambahUlasan()" style="text;html=1;fontSize=11;align=left;spacingLeft=8;fontColor=#FFFFFF;" parent="ulasan_frame" vertex="1">
+          <mxGeometry y="136" width="200" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_toko" value="1..*" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;strokeColor=#555555;fontColor=#FFFFFF;fontStyle=1;fontSize=11;rounded=0;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" parent="1" source="user_frame" target="toko_frame" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_toko_produk" value="1..*" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;strokeColor=#555555;fontColor=#FFFFFF;fontStyle=1;fontSize=11;rounded=0;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" parent="1" source="toko_frame" target="produk_frame" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_pesanan" value="1..*" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;strokeColor=#555555;fontColor=#FFFFFF;fontStyle=1;fontSize=11;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="user_frame" target="pesanan_frame" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_produk_ulasan" value="1..*" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;strokeColor=#555555;fontColor=#FFFFFF;fontStyle=1;fontSize=11;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="produk_frame" target="ulasan_frame" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_pesanan_bayar" value="1" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;strokeColor=#555555;fontColor=#FFFFFF;fontStyle=1;fontSize=11;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pesanan_frame" target="pembayaran_frame" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_bayar" value="melakukan pembayaran" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;strokeColor=#8e44ad;fontColor=#FFFFFF;fontStyle=1;fontSize=11;rounded=0;html=1;exitX=0.7;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;" parent="1" source="user_frame" target="pembayaran_frame" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="194" y="390" />
+              <mxPoint x="432" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_bayar_toko" value="diterima toko" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;strokeColor=#5cb85c;fontColor=#FFFFFF;fontStyle=1;fontSize=11;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="pembayaran_frame" target="toko_frame" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="360" />
+              <mxPoint x="460" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

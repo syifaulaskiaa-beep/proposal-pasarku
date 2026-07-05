@@ -1,0 +1,136 @@
+<svg viewBox="0 0 420 820" xmlns="http://www.w3.org/2000/svg" width="420" height="820" font-family="Inter, Segoe UI, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-10%" y="-5%" width="120%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="18" flood-color="#3d35b5" flood-opacity="0.18"/>
+    </filter>
+    <filter id="inset" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#3d35b5" flood-opacity="0.08"/>
+    </filter>
+    <clipPath id="phoneClip">
+      <rect x="30" y="10" width="360" height="800" rx="40" ry="40"/>
+    </clipPath>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f4ff"/>
+      <stop offset="100%" stop-color="#eeeeff"/>
+    </linearGradient>
+    <linearGradient id="btnGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a3fd4"/>
+      <stop offset="100%" stop-color="#6c5ce7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Phone frame outer shadow -->
+  <rect x="30" y="10" width="360" height="800" rx="40" ry="40" fill="#dddcf5" filter="url(#shadow)"/>
+
+  <!-- Phone body -->
+  <rect x="30" y="10" width="360" height="800" rx="40" ry="40" fill="url(#bgGrad)" stroke="#c5c0ee" stroke-width="2.5"/>
+
+  <!-- Status bar -->
+  <rect x="30" y="10" width="360" height="46" rx="40" ry="40" fill="#3d35b5" clip-path="url(#phoneClip)"/>
+  <rect x="30" y="40" width="360" height="16" fill="#3d35b5"/>
+  <text x="210" y="33" text-anchor="middle" fill="white" font-size="13" font-weight="600" letter-spacing="1">9:41</text>
+  <!-- battery icon -->
+  <rect x="348" y="22" width="22" height="11" rx="2" fill="none" stroke="white" stroke-width="1.5"/>
+  <rect x="370" y="25" width="3" height="5" rx="1" fill="white"/>
+  <rect x="350" y="24" width="16" height="7" rx="1" fill="white"/>
+  <!-- signal bars -->
+  <rect x="310" y="28" width="3" height="5" rx="1" fill="white"/>
+  <rect x="315" y="25" width="3" height="8" rx="1" fill="white"/>
+  <rect x="320" y="22" width="3" height="11" rx="1" fill="white"/>
+
+  <!-- Logo background rounded square -->
+  <rect x="165" y="78" width="90" height="90" rx="22" ry="22" fill="#4a3fd4" filter="url(#inset)"/>
+
+  <!-- Shopping bag icon (SVG path) -->
+  <!-- Bag body -->
+  <rect x="181" y="110" width="58" height="44" rx="6" fill="white" fill-opacity="0.95"/>
+  <!-- Bag handle left -->
+  <path d="M193 110 Q193 96 205 96 Q217 96 217 110" fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bag handle right -->
+  <path d="M203 110 Q203 98 212 98 Q221 98 221 110" fill="none" stroke="#a0f0b0" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- small bag accent -->
+  <rect x="198" y="118" width="24" height="18" rx="4" fill="#f0e0ff" fill-opacity="0.7"/>
+  <rect x="206" y="125" width="8" height="11" rx="2" fill="#ff9fd8" fill-opacity="0.8"/>
+
+  <!-- App name -->
+  <text x="210" y="198" text-anchor="middle" fill="#1a1a4e" font-size="26" font-weight="800" letter-spacing="0.5">PasarKu</text>
+
+  <!-- Tagline -->
+  <text x="210" y="220" text-anchor="middle" fill="#7b74cc" font-size="13" letter-spacing="0.3">Belanja UMKM Lokal</text>
+
+  <!-- Divider -->
+  <line x1="90" y1="238" x2="330" y2="238" stroke="#e0deff" stroke-width="1"/>
+
+  <!-- Email label -->
+  <text x="65" y="265" fill="#1a1a4e" font-size="13" font-weight="600">Email</text>
+
+  <!-- Email input -->
+  <rect x="60" y="272" width="300" height="46" rx="12" fill="white" stroke="#c8c4f0" stroke-width="1.8"/>
+  <text x="80" y="300" fill="#b0aade" font-size="13">contoh@email.com</text>
+  <!-- email icon -->
+  <circle cx="322" cy="295" r="10" fill="#eeecff"/>
+  <path d="M315 291 h14 a1 1 0 0 1 1 1 v8 a1 1 0 0 1-1 1 h-14 a1 1 0 0 1-1-1 v-8 a1 1 0 0 1 1-1 z" fill="none" stroke="#8880cc" stroke-width="1.2"/>
+  <path d="M315 292 l7 5 l7-5" fill="none" stroke="#8880cc" stroke-width="1.2"/>
+
+  <!-- Password label -->
+  <text x="65" y="338" fill="#1a1a4e" font-size="13" font-weight="600">Password</text>
+
+  <!-- Password input -->
+  <rect x="60" y="345" width="300" height="46" rx="12" fill="white" stroke="#c8c4f0" stroke-width="1.8"/>
+  <text x="80" y="373" fill="#b0aade" font-size="19" letter-spacing="5">••••••••</text>
+  <!-- eye icon -->
+  <circle cx="322" cy="368" r="10" fill="#eeecff"/>
+  <ellipse cx="322" cy="368" rx="6" ry="4" fill="none" stroke="#8880cc" stroke-width="1.2"/>
+  <circle cx="322" cy="368" r="2" fill="#8880cc"/>
+
+  <!-- Lupa password -->
+  <text x="355" y="406" text-anchor="end" fill="#6c5ce7" font-size="11.5" font-weight="500">Lupa password?</text>
+
+  <!-- Masuk button -->
+  <rect x="60" y="414" width="300" height="50" rx="14" fill="url(#btnGrad)" filter="url(#inset)"/>
+  <text x="210" y="445" text-anchor="middle" fill="white" font-size="16" font-weight="700" letter-spacing="1.5">Masuk</text>
+
+  <!-- Or divider -->
+  <line x1="80" y1="486" x2="155" y2="486" stroke="#d0ceee" stroke-width="1"/>
+  <text x="210" y="490" text-anchor="middle" fill="#9898bb" font-size="12">atau masuk dengan</text>
+  <line x1="265" y1="486" x2="340" y2="486" stroke="#d0ceee" stroke-width="1"/>
+
+  <!-- Google button -->
+  <rect x="60" y="500" width="300" height="44" rx="12" fill="white" stroke="#d0ceee" stroke-width="1.5"/>
+  <circle cx="116" cy="522" r="10" fill="#f5f5f5"/>
+  <!-- G letter -->
+  <text x="116" y="527" text-anchor="middle" fill="#4285f4" font-size="13" font-weight="700">G</text>
+  <text x="210" y="527" text-anchor="middle" fill="#444466" font-size="13" font-weight="500">Lanjutkan dengan Google</text>
+
+  <!-- Separator -->
+  <line x1="80" y1="560" x2="330" y2="560" stroke="#ece9ff" stroke-width="1"/>
+
+  <!-- Register text -->
+  <text x="210" y="585" text-anchor="middle" fill="#555577" font-size="12.5">Belum punya akun?</text>
+  <text x="210" y="605" text-anchor="middle" fill="#4a3fd4" font-size="12.5" font-weight="700" text-decoration="underline">Daftar Sekarang</text>
+
+  <!-- atau daftar sebagai -->
+  <text x="210" y="635" text-anchor="middle" fill="#9898bb" font-size="12">atau daftar sebagai</text>
+
+  <!-- Pembeli button -->
+  <rect x="60" y="645" width="135" height="44" rx="12" fill="#f0eeff" stroke="#4a3fd4" stroke-width="2"/>
+  <!-- person icon -->
+  <circle cx="90" cy="662" r="7" fill="none" stroke="#4a3fd4" stroke-width="1.8"/>
+  <path d="M78 675 q3-6 12-6 q9 0 12 6" fill="none" stroke="#4a3fd4" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="155" y="671" text-anchor="end" fill="#4a3fd4" font-size="13.5" font-weight="700">Pembeli</text>
+
+  <!-- Penjual button -->
+  <rect x="225" y="645" width="135" height="44" rx="12" fill="#efffef" stroke="#2ea84a" stroke-width="2"/>
+  <!-- store icon -->
+  <rect x="250" y="656" width="18" height="14" rx="2" fill="none" stroke="#2ea84a" stroke-width="1.8"/>
+  <path d="M248 660 h22" stroke="#2ea84a" stroke-width="1.5"/>
+  <rect x="255" y="662" width="8" height="8" rx="1" fill="#2ea84a" fill-opacity="0.4"/>
+  <text x="320" y="671" text-anchor="end" fill="#2ea84a" font-size="13.5" font-weight="700">Penjual</text>
+
+  <!-- Home indicator -->
+  <rect x="165" y="760" width="90" height="5" rx="3" fill="#b0aade" opacity="0.6"/>
+
+  <!-- Phone notch / camera -->
+  <rect x="175" y="14" width="70" height="18" rx="9" fill="#2a24a0"/>
+  <circle cx="210" cy="23" r="4" fill="#1a1560"/>
+</svg>
